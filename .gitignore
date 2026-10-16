@@ -1,0 +1,119 @@
+# 依赖
+node_modules/
+.pnp
+.pnp.*
+
+# 构建产物
+.next/
+out/
+build/
+!Kirameku-backend/admin/build/
+dist/
+
+# 环境变量
+.env
+.env.*
+!.env.example
+!.env.development
+!.env.production
+!.env.staging
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.pem
+
+# IDE & AI
+.idea/
+.vscode/
+.claude/
+CLAUDE.md
+*.swp
+*.swo
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# 数据库
+*.db
+*.sqlite
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# 上传文件
+uploads/
+
+# 压缩包
+*.zip
+
+# 其他
+.eslintcache
+report.html
+
+# Star 记录
+star-history.md
+
+# 阅读服务端
+reader-master/
+
+# 深度学习
+deep-learning/
+
+# Kova
+Kova/
+Kirameku-backend/admin/.env*
+
+# === Kirameku 发布保护（自动生成）===
+# 密钥与本地配置（绝对不能上传）
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# Python 后端
+Kirameku-backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 前端与后台依赖 / 构建产物
+node_modules/
+Kirameku/.next/
+Kirameku/out/
+Kirameku-backend/admin/node_modules/
+Kirameku-backend/admin/dist/
+.next/
+out/
+dist/
+
+# 运行时数据（用户上传的图片等，属于数据不属于源码）
+Kirameku-backend/uploads/
+
+# 补丁脚本留下的备份（里面是旧代码，容易混淆）
+*.bak
+*.bak.*
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db
+# === 保护规则结束 ===
