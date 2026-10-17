@@ -38,7 +38,7 @@ export const siteConfig = {
 
   // 社交链接
   social: {
-    github: "",
+    github: "https://github.com/GUETovo",
     gitee: "",
     google: "",
     email: "",
